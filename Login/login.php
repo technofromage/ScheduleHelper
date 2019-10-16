@@ -4,21 +4,27 @@
 
     <link rel="stylesheet" href="./login.css">
 
-    <body id="body">
+    <body>
 
-        <div id="container">
+    <div class="Name">Schedule Helper</div>
 
-            <div id="list">
+        <div>
 
-                <div id="element" class="Title">Login</div>
+            <div class="Container">
 
-                <div id="spacer"> </div>
+                <title>Login</title>
 
-                <div id="element">User Name: <Input type="text"> </div> 
+                <span></span>
 
-                <div id="element">Password: <Input type="text"> </div> 
+                <h1>Username:</h1>
 
-                <input id="element" class="Button" type="button" value="Submit">
+                    <Input type="text" placeholder="Username">
+
+                <h1>Password:</h1> 
+
+                    <Input type="text" placeholder="Password">
+
+                <input class="Button" onclick="Login()" type="button" value="Login" >
             
             </div>
 
@@ -26,5 +32,6 @@
 
     </body>
 
+    <script src="./login.js"></script>
 
 </html>
