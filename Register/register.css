@@ -29,6 +29,22 @@ body
     top: 20%;
 }
 
+.SwitchPanel
+{
+    display: block;
+    width: 100%;
+}
+
+.JoinGroup
+{
+    display: block;
+}
+
+.CreateGroup
+{
+    display: block;
+}
+
 .Container title
 {
     display: block;
@@ -36,6 +52,7 @@ body
     font-weight: 550;
     font-size: 16px;
     padding: 10px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
 }
 
 .Container h1
@@ -66,7 +83,7 @@ body
     height: 1px;
     display: block;
     background-color: gray;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 10px 0px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
@@ -83,6 +100,24 @@ body
     cursor: pointer;
     margin: 0px auto;
     position: relative;
+}
+
+.ButtonSwitch
+{
+    background-color: #4CAF50;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    margin: 5px;
+}
+
+.ButtonSwitch:hover
+{
+    background-color: rgb(70, 192, 74);
 }
 
 .Button:hover

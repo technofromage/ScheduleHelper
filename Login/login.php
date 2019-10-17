@@ -6,26 +6,38 @@
 
     <body>
 
-    <div class="Name">Schedule Helper</div>
+        <div class="Name">Schedule Helper</div>
 
-        <div>
+        <a href="../Register/register.php" class="Create">Don't have an account Click Here!</a>
 
-            <div class="Container">
+            <div>
 
-                <title>Login</title>
+                <div class="Container">
 
-                <span></span>
+                    <title>Login</title>
 
-                <h1>Username:</h1>
+                    <span></span>
 
-                    <Input type="text" placeholder="Username">
+                    <form action="../Scheduler/scheduler.php" method="post">
 
-                <h1>Password:</h1> 
+                        <h1>Group:</h1>
 
-                    <Input type="text" placeholder="Password">
+                            <Input type="text" placeholder="Group" name="GROUP_NAME" >
 
-                <input class="Button" onclick="Login()" type="button" value="Login" >
-            
+                        <h1>Username:</h1>
+
+                            <Input type="text" placeholder="Username" name="USER_NAME">
+
+                        <h1>Password:</h1> 
+
+                            <Input type="password" placeholder="Password" name="PASSWORD">
+
+                            <input class="Button" onclick="Login()" type="submit" value="Login" >
+
+                    </form>
+
+                </div>
+                
             </div>
 
         </div>
