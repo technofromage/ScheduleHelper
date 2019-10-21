@@ -1,0 +1,147 @@
+body
+{
+    background-color: white;
+    text-align: center;
+}
+
+.Name
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    top: 10%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.Container
+{
+    background-color:  white;
+    border-radius: 4px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border: 2px solid gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    top: 20%;
+}
+
+.SwitchPanel
+{
+    display: block;
+    width: 100%;
+}
+
+.JoinGroup
+{
+    display: block;
+}
+
+.CreateGroup
+{
+    display: block;
+}
+
+.Container title
+{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 16px;
+    padding: 10px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+.Container h1
+{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 14px;
+    padding: 10px 0px 0px 10px;
+    float: left;
+    position: relative;
+    clear: both;
+}
+
+.Container input
+{
+    clear: both;
+    width: 90%;
+    margin: 0px 0px 10px 0px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.Container span
+{
+    width: 90%;
+    height: 1px;
+    display: block;
+    background-color: gray;
+    margin: 10px 0px 10px 0px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.Button
+{
+    background-color: #4CAF50;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0px auto;
+    position: relative;
+}
+
+.ButtonSwitch
+{
+    background-color: #4CAF50;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    margin: 5px;
+}
+
+.ButtonSwitch:hover
+{
+    background-color: rgb(70, 192, 74);
+}
+
+.Button:hover
+{
+    background-color: rgb(53, 128, 56);
+}
+
+.Button:active
+{
+    background-color: rgb(70, 192, 74);
+}
+
+.Create
+{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.Create:hover
+{
+    text-decoration: underline;
+    color: rgb(53, 128, 56);
+}
