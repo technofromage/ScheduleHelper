@@ -29,13 +29,13 @@
 
 
                         <h1>Group Name:</h1>
-                        <Input type="text" placeholder="Group Name" name="GROUP_NAME" >
+                        <Input type="text" id="newGroupJoin" placeholder="Group Name" name="GROUP_NAME" >
 
                         <h1>Your Username:</h1>
-                        <Input type="text" placeholder="Username" name="USER_NAME">
+                        <Input type="text" id="newUserJoin" placeholder="Username" name="USER_NAME">
 
                         <h1>Your Pass:</h1> 
-                        <Input type="password" placeholder="Password" name="PASSWORD">
+                        <Input type="password" id="newPasswordJoin" placeholder="Password" name="PASSWORD">
 
                         <input class="Button" onclick="JoinGroup()" type="submit" value="Join Group" >
 
@@ -50,13 +50,13 @@
 
 
                         <h1>Group Name:</h1>
-                        <Input type="text" placeholder="Group Name" name="GROUP_NAME" >
+                        <Input type="text" id="newGroupCreate" placeholder="Group Name" name="GROUP_NAME" >
 
                         <h1>Your Username:</h1>
-                        <Input type="text" placeholder="Username" name="USER_NAME">
+                        <Input type="text" id="newUserCreate" placeholder="Username" name="USER_NAME">
 
                         <h1>Your Pass:</h1> 
-                        <Input type="password" placeholder="Password" name="PASSWORD">
+                        <Input type="password" id="newPasswordCreate" placeholder="Password" name="PASSWORD">
 
                         <input class="Button" onclick="CreateGroup()" type="submit" value="Create Group" >
 

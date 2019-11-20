@@ -1,8 +1,16 @@
-var CreateForm  = document.getElementsByClassName("CreateGroup")[0];
-var JoinForm    = document.getElementsByClassName("JoinGroup")[0];
+var CreateForm          = document.getElementsByClassName("CreateGroup")[0];
+var JoinForm            = document.getElementsByClassName("JoinGroup")[0];
 
-var CreateButton = document.getElementsByClassName("ButtonSwitch")[0];
-var JoinButton = document.getElementsByClassName("ButtonSwitch")[1];
+var CreateButton        = document.getElementsByClassName("ButtonSwitch")[0];
+var JoinButton          = document.getElementsByClassName("ButtonSwitch")[1];
+
+var newGroupCreate      = document.getElementById("newGroupCreate");
+var newUserCreate       = document.getElementById("newUserCreate");
+var newPasswordCreate   = document.getElementById("newPasswordCreate");
+
+var newGroupJoin        = document.getElementById("newGroupJoin");
+var newUserJoin         = document.getElementById("newUserJoin");
+var newPasswordJoin     = document.getElementById("newPasswordJoin");
 
 ShowJoin();
 
@@ -30,10 +38,48 @@ function ShowJoin()
 
 function CreateGroup()
 {
-    alert("Create Group Needs To Be Implemented");
+    //alert(GroupName.value );
+
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() 
+    {
+        if (this.readyState == 4 && this.status == 200) 
+        {
+            if(this.responseText == "1")
+            {
+                alert("You Have Created A Group!");
+
+                window.location.replace("../Login/login.php");
+            }
+            else
+            {
+                alert(this.responseText);
+            }
+        }
+    };
+    xmlhttp.open("GET", "./createGroup.php?USERNAME=" + newUserCreate.value + "&PASSWORD=" + newPasswordCreate.value + "&GROUP=" + newGroupCreate.value, true);
+    xmlhttp.send();
 }
 
 function JoinGroup()
 {
-    alert("Join Group Needs To Be Implmneted");
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() 
+    {
+        if (this.readyState == 4 && this.status == 200) 
+        {
+            if(this.responseText == "1")
+            {
+                alert("You Have Created A Group!");
+
+                window.location.replace("../Login/login.php");
+            }
+            else
+            {
+                alert(this.responseText);
+            }
+        }
+    };
+    xmlhttp.open("GET", "./joinGroup.php?USERNAME=" + newUserJoin.value + "&PASSWORD=" + newPasswordJoin.value + "&GROUP=" + newGroupJoin.value, true);
+    xmlhttp.send();
 }
