@@ -29,22 +29,6 @@ body
     top: 20%;
 }
 
-.SwitchPanel
-{
-    display: block;
-    width: 100%;
-}
-
-.JoinGroup
-{
-    display: block;
-}
-
-.CreateGroup
-{
-    display: block;
-}
-
 .Container title
 {
     display: block;
@@ -52,8 +36,8 @@ body
     font-weight: 550;
     font-size: 16px;
     padding: 10px 0px 0px 0px;
-    margin: 10px 0px 0px 0px;
 }
+
 
 .Container h1
 {
@@ -83,7 +67,7 @@ body
     height: 1px;
     display: block;
     background-color: gray;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 0px 0px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
@@ -102,6 +86,39 @@ body
     position: relative;
 }
 
+.Button:hover
+{
+    background-color: rgb(53, 128, 56);
+}
+
+.Button:active
+{
+    background-color: rgb(70, 192, 74);
+}
+
+.ButtonText
+{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.ButtonText:hover
+{
+    text-decoration: underline;
+    color: rgb(53, 128, 56);
+}
+
+/* The SwitchPanel is the container the conntains ButtonSwitch's, used for single-on toggle buttons */
+.SwitchPanel
+{
+    display: block;
+    width: 100%;
+}
+
 .ButtonSwitch
 {
     background-color: #4CAF50;
@@ -118,30 +135,4 @@ body
 .ButtonSwitch:hover
 {
     background-color: rgb(70, 192, 74);
-}
-
-.Button:hover
-{
-    background-color: rgb(53, 128, 56);
-}
-
-.Button:active
-{
-    background-color: rgb(70, 192, 74);
-}
-
-.Create
-{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
-
-.Create:hover
-{
-    text-decoration: underline;
-    color: rgb(53, 128, 56);
 }

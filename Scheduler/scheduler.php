@@ -2,7 +2,7 @@
 
 <html>
 
-    <link rel="stylesheet" href="./scheduler.css">
+    <link rel="stylesheet" href="../SheduleHelper.css">
 
     <body>
 
