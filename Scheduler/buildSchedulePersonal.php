@@ -13,6 +13,6 @@
         // Draw Hour Tile To MArk Which Hour This Row REpresents
         $GLOBALS['hour'] = $i;
 
-        drawRow();
+        drawRowPersonal();
     }
 ?>

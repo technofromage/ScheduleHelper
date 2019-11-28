@@ -2,17 +2,17 @@
 
 <html>
 
-    <link rel="stylesheet" href="../ScheduleHelper.css">
+    <link rel="stylesheet" href="./register.css">
 
     <body>
 
         <div class="Name">Schedule Helper Registration</div>
 
-        <a href="../Login/login.php" class="ButtonText">Back to login.</a>
+        <a href="../Login/login.php" class="Create">Back to login.</a>
 
             <div>
 
-                <div class="Container">
+                <div class="Container" class="Switcher">
 
                     <div class="SwitchPanel">
                         <button class="ButtonSwitch" onclick="ShowCreate()"> Create Group </button>

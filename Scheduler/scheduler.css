@@ -1,0 +1,138 @@
+body
+{
+    display: inline-block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#group
+{
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 50%;
+}
+
+#user
+{
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 50%;   
+}
+
+.chartsHolder
+{
+    text-align: center;
+}
+
+.tableHolder
+{
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, .5);
+}
+
+
+.scheduleContainer
+{
+    background-color: gray;
+    width: 700px;
+    word-wrap: break-word;
+    margin: 10px;
+
+}
+
+.tableTitle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.tile
+{
+    user-select: none;
+    background-color: green;
+    width: 98px;
+    height: 19px;
+    margin: 1px;
+}
+
+.collumnTitle
+{
+    user-select: none;
+    display: table-cell;
+    background-color: white;
+    margin: 2px;
+    width: 99px;
+    height: 19px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.busyGroup
+{
+    user-select: none;
+    display: table-cell;
+    background-color: black;
+    margin: 2px;
+    width: 99px;
+    height: 19px;
+    text-align: center;
+}
+
+.optionsContainer
+{
+    margin: 5px;
+
+}
+
+.busyPersonal
+{
+    user-select: none;
+    display: table-cell;
+    background-color: red;
+    margin: 2px;
+    width: 99px;
+    height: 19px;
+    text-align: center;
+}
+
+.openBox
+{
+    user-select: none;
+    display: table-cell;
+    background-color: rgb(205, 205, 192);
+    margin: 2px;
+    width: 99px;
+    height: 19px;
+    text-align: center;
+}
+
+.Button
+{
+    background-color: #4CAF50;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0px auto;
+    position: relative;
+}
+
+.Button:hover
+{
+    background-color: rgb(53, 128, 56);
+}
+
+.Button:active
+{
+    background-color: rgb(70, 192, 74);
+}

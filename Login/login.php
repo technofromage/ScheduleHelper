@@ -2,13 +2,13 @@
 
 <html>
 
-    <link rel="stylesheet" href="../ScheduleHelper.css">
-	
+    <link rel="stylesheet" href="./login.css">
+
     <body>
 
         <div class="Name">Schedule Helper</div>
 
-        <a href="../Register/register.php" class="ButtonText"> Don't have an account Click Here! </a>
+        <a href="../Register/register.php" class="Create">Don't have an account Click Here!</a>
 
             <div>
 

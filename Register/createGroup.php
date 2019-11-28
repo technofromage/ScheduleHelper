@@ -30,7 +30,7 @@
     // Create TAble For Group In Database
     $query = "DROP TABLE IF EXISTS $GROUP_NAME.$GROUP_NAME";
     $conn->query($query);
-    $query = "CREATE TABLE `$GROUP_NAME`.`$GROUP_NAME` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `username` VARCHAR(64) NOT NULL , `password` VARCHAR(64) NOT NULL , `sunday` VARCHAR(2048) NOT NULL , `monday` VARCHAR(2048) NOT NULL , `tuesday` VARCHAR(2048) NOT NULL , `wednesday` VARCHAR(2048) NOT NULL , `thursday` VARCHAR(2048) NOT NULL , `friday` VARCHAR(2048) NOT NULL , `saturday` VARCHAR(2048) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;";
+    $query = "CREATE TABLE `$GROUP_NAME`.`$GROUP_NAME` ( `id` INT(16) NOT NULL AUTO_INCREMENT , `username` VARCHAR(512) NOT NULL , `password` VARCHAR(512) NOT NULL , `sunday` VARCHAR(2048) NOT NULL DEFAULT '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~' , `monday` VARCHAR(2048) NOT NULL DEFAULT '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~' , `tuesday` VARCHAR(2048) NOT NULL DEFAULT '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~' , `wednesday` VARCHAR(2048) NOT NULL DEFAULT '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~' , `thursday` VARCHAR(2048) NOT NULL DEFAULT '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~' , `friday` VARCHAR(2048) NOT NULL DEFAULT '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~' , `saturday` VARCHAR(2048) NOT NULL DEFAULT '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~' , PRIMARY KEY (`id`)) ENGINE = InnoDB;";
     if($conn->query($query) === FALSE)
     {
         echo("FAILED TO CREATE TABLE: $query"); return;
@@ -46,7 +46,7 @@
     }
 
     // Add First User To Group
-    $query = "INSERT INTO `$GROUP_NAME` (`id`, `username`, `password`, `sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`) VALUES (NULL, '$ADMIN_USERNAME', '$ADMIN_PASSWORD', '', '', '', '', '', '', '')";
+    $query = "INSERT INTO `$GROUP_NAME` (`id`, `username`, `password`, `sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`) VALUES ('', '$ADMIN_USERNAME', '$ADMIN_PASSWORD', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~')";
     if($conn->query($query) === FALSE)
     {
         echo("FAILED TO ADD ADMIN USER: $query"); return;
