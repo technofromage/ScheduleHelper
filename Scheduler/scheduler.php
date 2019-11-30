@@ -29,6 +29,14 @@
     <div id="group"><?php echo($_POST['GROUP_NAME']); ?></div>
     <div id="user"><?php echo($_POST['USER_NAME']); ?></div>
 
+
+    <label class="switch">
+        <div class="mode">Mode: View</div>
+        <input id="check" type="checkbox" onclick="updateMode()">
+        <span class="slider round"></span>
+    </label>
+
+
     <div class="chartsHolder">
 
     <div class="tableHolder">
@@ -59,8 +67,6 @@
         </div>
 
     </div>
-
-        
 
     </body>
 

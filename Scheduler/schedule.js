@@ -6,6 +6,8 @@ var downStartY = -1;
 
 var hourSlots = [];
 
+updateMode();
+
 function tileMouseDown(x, y)
 {
     // Don't Do Anything Just Store The Tile The Coordiantes Mouse Down Was PRessed
@@ -146,4 +148,39 @@ function refresh()
 function logOut()
 {
     window.location.href = "../Login/login.php";
+}
+
+function updateMode()
+{
+    var checkbox = document.getElementById("check");
+    var checkTXT = document.getElementsByClassName("mode")[0];
+
+    var personalSchedule = document.getElementsByClassName("tableHolder")[1];
+    var personalScheduleTitle = document.getElementsByClassName("tableTitle")[1];
+
+    var groupSchedule = document.getElementsByClassName("tableHolder")[0];
+    var groupScheduleTitle = document.getElementsByClassName("tableTitle")[0];
+
+    if (checkbox.checked)
+    {
+        // Hide Group Schdule Show PErsonal Schedule
+        checkTXT.innerHTML = "Mode: Edit";
+
+        groupSchedule.style.display = "none";
+        groupScheduleTitle.style.display = "none"
+
+        personalSchedule.style.display = "inline-block";
+        personalScheduleTitle.style.display = "block";
+    }
+    else
+    {
+        // Hide PErsonal SCdule Show Group Schdule
+        checkTXT.innerHTML = "Mode: View";
+
+        personalSchedule.style.display = "none";
+        personalScheduleTitle.style.display = "none";
+
+        groupSchedule.style.display = "inline-block";
+        groupScheduleTitle.style.display = "block";
+    }
 }
