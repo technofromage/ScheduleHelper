@@ -74,7 +74,7 @@ body
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* commented as unused
 .busyGroup
 {
     user-select: none;
@@ -85,13 +85,13 @@ body
     height: 19px;
     text-align: center;
 }
-
+*/
 .optionsContainer
 {
     margin: 5px;
 
 }
-
+/* commented as unused
 .busyPersonal
 {
     user-select: none;
@@ -102,7 +102,7 @@ body
     height: 19px;
     text-align: center;
 }
-
+*/
 .openBox
 {
     user-select: none;
