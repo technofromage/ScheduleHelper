@@ -11,7 +11,7 @@
     $password = "";
 
     $conn = mysqli_connect($servername, $username, $password, $GROUP_NAME);
-    if (!$conn) 
+    if (!$conn)
     {
         echo "NO SUCH GROUP";
         return;

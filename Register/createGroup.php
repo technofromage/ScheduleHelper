@@ -9,12 +9,12 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    
+
     // Create connection
     $conn = mysqli_connect($servername, $username, $password);
-    
+
     // Check connection
-    if (!$conn) 
+    if (!$conn)
     {
         echo "FAILED TO CONNECT TO DATABASE";
         return;
@@ -39,7 +39,7 @@
     // Close Connection An Open Conene tion To This Grous Datatbase
     $conn->close();
     $conn = mysqli_connect($servername, $username, $password, $GROUP_NAME);
-    if (!$conn) 
+    if (!$conn)
     {
         echo "FAILED TO CONNECT TO GROUPS DATABASE";
         return;
