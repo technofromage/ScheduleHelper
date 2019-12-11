@@ -1,0 +1,523 @@
+commit 9370a2cefbb15a5aa238b87b69e48a6de07fda42
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Wed Dec 11 12:23:28 2019 -0800
+
+    update final report
+
+commit ff31e8d5354cc32fcd2d3e4b0906f1c7ff821406
+Merge: e603eaf 483c7f7
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Dec 11 11:25:59 2019 -0800
+
+    Merge branch 'ColorTest'
+
+commit e603eaf7517796ecfb46810240812e08bdac78b4
+Merge: 80be394 dc00ebd
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Dec 11 11:25:01 2019 -0800
+
+    Merge branch 'master' of https://github.com/technofromage/ScheduleHelper
+
+commit 483c7f715601d3a714e0b318645637679524b75a
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Dec 11 11:24:06 2019 -0800
+
+    fixed typos
+
+commit dc00ebde721a5509abdf759ee2c8dff916eedb6f
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Wed Dec 11 11:23:06 2019 -0800
+
+    U
+
+commit 80be394a7b535a0ed4d5985f8ae1bd161b7e276a
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Dec 11 11:21:27 2019 -0800
+
+    added null to value
+
+commit 72287bf920e215141d14fdaa8cb6712552996af1
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Dec 11 11:00:03 2019 -0800
+
+    furtherchanges to color differences
+
+commit 4d3fd8907fc5806a231e5e2510b02200bb1e5d84
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Dec 11 10:51:28 2019 -0800
+
+    Small change - make color differences bigger
+
+commit 8d47ab7eb5711b63960fc03d2605ab5d180ac87b
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Tue Dec 10 21:29:20 2019 -0800
+
+    implemented pictures into report
+
+commit 0787e7914879436b93491eb96c6b405a01866d49
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Tue Dec 10 21:17:16 2019 -0800
+
+    added pictures
+
+commit 31c68330bb3e815f8df7834d4aab39182efe5251
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Thu Dec 5 13:26:00 2019 -0800
+
+    added colored schedules
+
+commit f4e67d00d6edaee451345868caee462cf6105196
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Dec 4 15:38:27 2019 -0800
+
+    Added pictures from milestone 2
+
+commit 6dbdffda0047d72bf8579cca5598d2aa0817eb9c
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Dec 4 14:04:27 2019 -0800
+
+    cleaned up section 3, 4.1, & 4.2
+
+commit 5b5529f12cbd9cbc19ac7c6c3282b3f0b1fda325
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Dec 4 13:44:00 2019 -0800
+
+    Create ScheduleHelper.css
+    
+    not yet implemented
+
+commit 2084ecc19cd1f4b4b67658b810491368cc3d4e7c
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Tue Dec 3 21:57:34 2019 -0800
+
+    chage something in the report
+
+commit 66a4ba4ef52520c70e0dee687cce67c5bd3dbbd7
+Author: Hooper <caleb.hooper@wsu.edu>
+Date:   Tue Dec 3 12:17:47 2019 -0800
+
+    Added Section 3
+
+commit de0122ab3822dcc377651dd2ca551c4284e049ee
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Mon Dec 2 18:24:52 2019 -0800
+
+    updates
+
+commit 8d6a18876ceb59545fe6b9e8ea408527dab4fe6b
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Mon Dec 2 18:24:16 2019 -0800
+
+    sections four and five uploaded
+
+commit e4a2c29aa52c23b103ff872a836b823c0c625ce5
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Mon Dec 2 11:54:43 2019 -0800
+
+    uploading the final report
+
+commit 4d85c9d68439c739938c7016e221f02596b192e1
+Author: CalebHooper <56366744+CalebHooper@users.noreply.github.com>
+Date:   Fri Nov 29 21:49:51 2019 -0800
+
+    Added Toggle To Schduler
+
+commit 31983fa4d3b7049ec8a6d609c3198b62df214c11
+Author: CalebHooper <56366744+CalebHooper@users.noreply.github.com>
+Date:   Thu Nov 28 01:13:41 2019 -0800
+
+    Added Functioning Scedule PAge
+
+commit 1cb8d291d21469451921ddef19af63f42a2d69f8
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Nov 27 23:46:01 2019 -0800
+
+    Refined CSS section
+    
+    I a couple class-names and am not sure if that broke any javascript stuff; Everything seems fine on my end.
+
+commit feda502fc336e39681447a82ef84d4804a916065
+Merge: 0184a33 6448251
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Thu Nov 21 19:10:26 2019 -0800
+
+    Merge branch 'master' of https://github.com/technofromage/ScheduleHelper
+
+commit 0184a33061e16c987e146ec7b0dec668bb50942a
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Thu Nov 21 19:10:16 2019 -0800
+
+    Update .DS_Store
+
+commit 64482517acb4ed0aac8551326ae405c924f0a4dc
+Author: Caleb Hooper <calebhooper@pop-os.localdomain>
+Date:   Thu Nov 21 17:25:02 2019 -0800
+
+    Added Outline For How Schduler Will Be Implmented
+
+commit d982bffe166585f3b7ba65173dbd567dbce0a8c3
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Wed Nov 20 19:24:10 2019 -0800
+
+    Update .DS_Store
+
+commit b7e2461d0d56f90520f551f5f6e3df52700ec875
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Wed Nov 20 19:23:36 2019 -0800
+
+    Update by rawad for the final report
+
+commit 5d6f2f7cdcd5ca3d8cd069f43284f17b5421c9ce
+Author: calebhooper <calebhooper@pop-os.localdomain>
+Date:   Wed Nov 20 17:06:02 2019 -0800
+
+    Test
+
+commit 6c7d2be2330d2a244eecc5f270ef2287c189278e
+Author: calebhooper <calebhooper@pop-os.localdomain>
+Date:   Wed Nov 20 17:03:35 2019 -0800
+
+    test
+
+commit e3beb67b6765a602b93f64074bf7e50f3ddf28f1
+Merge: 4edc4b9 7d3758d
+Author: CalebHooper <56366744+CalebHooper@users.noreply.github.com>
+Date:   Tue Nov 19 23:31:04 2019 -0800
+
+    Added MYSQLDATABASE
+
+commit 4edc4b926fd8f03be1e7e20bf9ae92f54f4e9092
+Author: CalebHooper <56366744+CalebHooper@users.noreply.github.com>
+Date:   Tue Nov 19 23:28:39 2019 -0800
+
+    Added MYSQLDATABASE
+
+commit 7d3758dd3f5a629fec01679c5e20245167dac577
+Author: calebhooper <caleb.hooper@wsu.edu>
+Date:   Tue Nov 19 19:28:02 2019 -0800
+
+    teest
+
+commit 9eea73894ce0002dd6cb1c405c8acb37256b992e
+Merge: b1fb275 154d63b
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Nov 6 13:32:36 2019 -0800
+
+    Merge branch 'master' of https://github.com/technofromage/ScheduleHelper
+
+commit b1fb275bb88d6a581fbcc9acb5e98b703a15ffe1
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Nov 6 13:32:28 2019 -0800
+
+    added logout
+
+commit 154d63b98c7f505a8ba3e710d986050ce17c7feb
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Tue Nov 5 22:35:33 2019 -0800
+
+    Update .DS_Store
+
+commit 3e383dd481fe41c3af8281ba999b3eeb803ba993
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Tue Nov 5 18:49:21 2019 -0800
+
+    Create State Diagram.png
+
+commit a3ce2f861e0e26f8d6133464d266ae2eaf8f17b6
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Thu Oct 31 21:31:31 2019 -0700
+
+    spelling edit for readme
+
+commit 4b789bcb039983b83f0e5755f4d3583a10608222
+Author: CalebHooper <56366744+CalebHooper@users.noreply.github.com>
+Date:   Tue Oct 29 23:03:43 2019 -0700
+
+    Added Read Me
+
+commit ab1e645b7be4739f783f943da1bbdc4fb1c3dbac
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Tue Oct 29 19:45:35 2019 -0700
+
+    Update Digrams
+
+commit 0438fde8ef23f19e3bff02d4ae1312836bce59a5
+Author: Hooper <caleb.hooper@wsu.edu>
+Date:   Fri Oct 25 10:25:47 2019 -0700
+
+    Added Class Diagram And Moved Things
+
+commit 3c8fee626ef43263673fc578a5b8e0118d82951b
+Author: Hooper <caleb.hooper@wsu.edu>
+Date:   Fri Oct 25 09:59:03 2019 -0700
+
+    Added Activity Diagrams
+
+commit 949347490fd71a3fe3b33ee81cc18c2cb1304f7a
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Thu Oct 24 18:28:42 2019 -0700
+
+    updated the functional requirements (3.2)
+
+commit 98fd98f6b7623e027c84ad4cb66588489950b3b4
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Wed Oct 23 21:44:14 2019 -0700
+
+    Update .DS_Store
+
+commit 318bdd6bc73efab8488586140ddb7abf7c059f82
+Author: CalebHooper <56366744+CalebHooper@users.noreply.github.com>
+Date:   Wed Oct 23 14:50:32 2019 -0700
+
+    Fixed Op SRS
+
+commit cce658b82e08873656736574be654be8eae9a0af
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Tue Oct 22 13:17:00 2019 -0700
+
+    atest version
+
+commit a54dee9c3222be7644d61d84676eca464e4abe0b
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Tue Oct 22 12:49:04 2019 -0700
+
+    Revert "Merge branch 'master' of https://github.com/technofromage/ScheduleHelper"
+    
+    This reverts commit 94a111358fa3bb4c431e78d5974ecf7dcebc677f, reversing
+    changes made to 06696ee94a405f877ced30329572acbe3eba2f2d.
+
+commit a2fe18d65f7550fadcfbc84e1562148a63bc92d4
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Sun Oct 20 19:17:19 2019 -0700
+
+    Re-uploading lost files
+    
+    I have no idea what happened, but I put the files back anyway; The new files now include my changes
+
+commit 88025643cdf5d211808567ca3668637bb4fd61d5
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Sun Oct 20 19:07:11 2019 -0700
+
+    Revert "Initial Write-up Section 3 SRS"
+    
+    This reverts commit bfc47ea14b4e8c61a98a50c26184181b75020cae.
+
+commit 49f157a5db28e97b1789a9853e2c25064a2771bb
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Sun Oct 20 19:06:28 2019 -0700
+
+    Revert "Update srs_template.docx"
+    
+    This reverts commit 1db165bb1fc182c829ea927441b011f0f29c4c61, reversing
+    changes made to bfc47ea14b4e8c61a98a50c26184181b75020cae.
+
+commit 87c93fd91b2788baf25b2de2fb20a2d4bec6853d
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Sun Oct 20 19:06:21 2019 -0700
+
+    Revert "fixing mistake"
+    
+    This reverts commit edf88152d3dc6e999612d4bf7ce691ce2b5e1780.
+
+commit edf88152d3dc6e999612d4bf7ce691ce2b5e1780
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Sun Oct 20 19:02:50 2019 -0700
+
+    fixing mistake
+
+commit 1db165bb1fc182c829ea927441b011f0f29c4c61
+Merge: bfc47ea 94a1113
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Sun Oct 20 19:00:46 2019 -0700
+
+    Update srs_template.docx
+
+commit bfc47ea14b4e8c61a98a50c26184181b75020cae
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Sun Oct 20 18:49:47 2019 -0700
+
+    Initial Write-up Section 3 SRS
+    
+    First rough draft of my section of the SRS, includes adding a use case diagram drawn in MSPaint
+
+commit 94a111358fa3bb4c431e78d5974ecf7dcebc677f
+Merge: 06696ee 21753ca
+Author: CalebHooper <56366744+CalebHooper@users.noreply.github.com>
+Date:   Wed Oct 16 19:12:58 2019 -0700
+
+    Merge branch 'master' of https://github.com/technofromage/ScheduleHelper
+
+commit 06696ee94a405f877ced30329572acbe3eba2f2d
+Author: CalebHooper <56366744+CalebHooper@users.noreply.github.com>
+Date:   Wed Oct 16 19:10:45 2019 -0700
+
+    Added REgistration Menu
+
+commit 21753cad3b81c571a166c84ded5165c31b5063d4
+Merge: 8add941 5c1ccda
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Wed Oct 16 18:29:10 2019 -0700
+
+    Merge branch 'master' of https://github.com/technofromage/ScheduleHelper
+
+commit 8add941c0c39a0e5f76fcbedc41b078aca49b23e
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Wed Oct 16 18:28:43 2019 -0700
+
+    Update .DS_Store
+
+commit 5c1ccda49891c41a6f23e2b10a30d1d78f5ffb9f
+Author: CalebHooper <56366744+CalebHooper@users.noreply.github.com>
+Date:   Wed Oct 16 07:35:05 2019 -0700
+
+    Added Login PAge Front End
+
+commit de9ba0e5e2ce52cc0a39ca50778f0936d4f2855b
+Author: CalebHooper <56366744+CalebHooper@users.noreply.github.com>
+Date:   Wed Oct 16 06:27:23 2019 -0700
+
+    Removed cluttered Files That Were Added From Nowhere
+
+commit fa0983c9d6a644f1c1769a72108a701fad16a7cc
+Merge: 9e35654 fcd8a54
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Mon Oct 14 23:26:25 2019 -0700
+
+    Merge branch 'master' of https://github.com/technofromage/ScheduleHelper
+
+commit 9e356546e8b2bfd2c3bc0cca79ab0375227d5d83
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Mon Oct 14 23:26:12 2019 -0700
+
+    Update .DS_Store
+
+commit fcd8a5453652183beefff57e6d72b75fd557bd36
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Mon Oct 14 14:07:46 2019 -0700
+
+    test
+
+commit 8699d50bf61feaad788cad26d4acb7674b5ccd13
+Merge: 4aef2f8 160f607
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Mon Oct 14 11:09:57 2019 -0700
+
+    Merge branch 'master' of https://github.com/technofromage/ScheduleHelper
+
+commit 160f60724a0d3158d2ae63c260614be085345642
+Author: CalebHooper <56366744+CalebHooper@users.noreply.github.com>
+Date:   Mon Oct 14 18:01:51 2019 -0700
+
+    Added Section 4 5 and Data Sheet
+
+commit 4aef2f8754868c5488b3f0809efb56f966df61ae
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Mon Oct 14 11:09:50 2019 -0700
+
+    Update .DS_Store
+
+commit 52206cc8f70a63e7c2d1f9331aba20e709a47592
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Sun Oct 13 13:47:52 2019 -0700
+
+    Update .DS_Store
+
+commit 938fc05f51448c26711eb7414e1809b477437e7c
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Sun Oct 13 13:39:18 2019 -0700
+
+    Create .DS_Store
+
+commit f4f13c1c15495f9a171e9677242c21f212559052
+Author: Caleb <caleb.hooper@wsu.edu>
+Date:   Fri Oct 11 21:47:13 2019 -0700
+
+    Added Base Project Files
+
+commit bf80d39bdce0b056056ed7b70720891e6a553469
+Author: CalebHooper <56366744+CalebHooper@users.noreply.github.com>
+Date:   Fri Oct 11 19:35:29 2019 -0700
+
+    Added Section 2
+
+commit 0595367616e9d95564a7e3cfecc5062fcbccff39
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Mon Oct 7 13:44:30 2019 -0700
+
+    Update srs_template.docx
+
+commit 29bd510a459a3a84ec56ba65021b1764a655fef6
+Merge: f775304 f93b19b
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Oct 2 14:02:33 2019 -0700
+
+    Update srs_template.docx
+
+commit f775304c97197623107e432b64bbc72256f16b8f
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Oct 2 13:50:14 2019 -0700
+
+    Testing merge conflicts
+    
+    test 3
+
+commit f93b19b34aea009d56c54ae1035c95c2fac57eab
+Merge: 345c9a3 faf8098
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Wed Oct 2 13:48:56 2019 -0700
+
+    Merge branch 'master' of https://github.com/technofromage/ScheduleHelper
+
+commit 345c9a326b3d35183c1e91e2eb6775b795d296a1
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Wed Oct 2 13:48:02 2019 -0700
+
+    Update srs_template.docx
+
+commit faf8098b912b01a78faf5e32df2b474522faa85b
+Merge: 0661f67 e46e12f
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Oct 2 13:43:05 2019 -0700
+
+    Merge branch 'master' of https://github.com/technofromage/ScheduleHelper
+
+commit 0661f6726c2b396618d0363f117ca1937f3ffb13
+Merge: c4fb52c c6ecc2b
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Oct 2 13:41:30 2019 -0700
+
+    Merge branch 'master' of https://github.com/technofromage/ScheduleHelper
+
+commit e46e12f93e5e0d735510697756f5291e543a39dd
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Wed Oct 2 13:41:14 2019 -0700
+
+    Update srs_template.docx
+
+commit c4fb52cba38d126d3d38039d4256c1b790f42a0d
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Oct 2 13:38:30 2019 -0700
+
+    added team name
+    
+    also a test
+
+commit c6ecc2b9d53eb03e0bbff83b9f3b5f3e48bebd2c
+Author: ray01111989 <55462898+ray01111989@users.noreply.github.com>
+Date:   Wed Oct 2 13:38:00 2019 -0700
+
+    Update srs_template.docx
+
+commit 93c0fee0c62880929c880a4ff367944918704ce7
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Oct 2 13:34:54 2019 -0700
+
+    added temp name
+    
+    this is a test
+
+commit 1810ac566ca4a06c6b706232a7e9acb93a7b7a9c
+Author: technofromage <53595974+technofromage@users.noreply.github.com>
+Date:   Wed Oct 2 13:26:49 2019 -0700
+
+    added template

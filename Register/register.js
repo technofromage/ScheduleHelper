@@ -70,7 +70,7 @@ function JoinGroup()
         {
             if(this.responseText == "1")
             {
-                alert("You Have Created A Group!");
+                alert("You Have Joined A Group!");
 
                 window.location.replace("../Login/login.php");
             }

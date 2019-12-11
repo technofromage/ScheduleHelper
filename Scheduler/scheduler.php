@@ -6,9 +6,9 @@
 
     // Check That We REcived Login Info
     
-    if(!validLoginInfo()) { header("Location: http://redtreestudios.net/ScheduleHelper2/Login/login.php"); }
+    if(!validLoginInfo()) { header("Location: ../Login/login.php"); }
 
-    if(!validateUserWithDB($_POST['USER_NAME'], $_POST['PASSWORD'], $_POST['GROUP_NAME'])) {  echo("asd");  }
+    if(!validateUserWithDB($_POST['USER_NAME'], $_POST['PASSWORD'], $_POST['GROUP_NAME'])) {  header("Location: ../Login/login.php");  }
 
 ?>
 

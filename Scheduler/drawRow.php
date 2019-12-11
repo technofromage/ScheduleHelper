@@ -61,30 +61,36 @@
 			$colorG=205;
 			$colorB=192;
 			$modR=0;//not modding any green to prevent color black
-			$modB=0;
+            $modB=0;
+            
+            $names = "";
             // Loop Though All Group Members And Check If This Hour Is Busy On This Day Of The Week
             $query = "SELECT * FROM `$SQL_database`";
             $result = mysqli_query($conn, $query);
             while($row = mysqli_fetch_array($result))
             {
                 $day = $row[3 + $i];
-				$username = $row['username'];
+                $username = $row['username'];
 				$modR=12*ord($username) % 150;
-				$modB=((31 * strlen($username)) % 110) + 20;
+                $modB=((31 * strlen($username)) % 110) + 20;
+                $modG=((2 * crc32($username)) % 150) + 20;
                 $arr=explode(",",$day);
                 
                 if($arr[intval($hour)] != '~')
                 {
                     $colorR-=$modR;//this way overlaping schedules will appear different colors
-					$colorB-=$modB;
+                    $colorB-=$modB;
+                    $colorG-=$modG;
 					if ($colorR<0) $colorR=0;
-					if ($colorB<0) $colorB=0;
+                    if ($colorB<0) $colorB=0;
+                    
+                    $names = "$names $username <br />";
                 }
             }
 			// draw box - If Busy then color will be default
 			$x = $i;
 			$y = intval($hour);
-            echo("<th class=\"openBox\" style=\"background-color: rgb({$colorR},  {$colorB},  {$colorG})\"></th>");
+            echo("<th class=\"openBox\" style=\"background-color: rgb({$colorR},  {$colorG},  {$colorB})\">  <span class=\"tooltiptext\">$names</span> </th>");
 
 
             // If Busy Mark Red If Free Mark Grey
@@ -136,7 +142,7 @@
 				$colorB=193-(((31 * strlen($username)) % 110) + 20);//this should be similar to modB in drawRow()
 				if ($colorB<0) $colorR=0;
 				
-                // If Busy Then Draw Busy Box If It AMkes It To End Without Drawing Busy Box Then Draw Empty Box
+                // If Busy Then Draw Busy Box If It Makes It To End Without Drawing Busy Box Then Draw Empty Box
                 if($arr[intval($hour)] != '~')
                 {
                     $x = $i;

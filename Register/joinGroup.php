@@ -24,6 +24,8 @@
         echo("FAILED TO ADD ADMIN USER: $query"); return;
     }
 
+    echo('1');
+
     // Create SQL Database For The New Group
     $conn->close();
 
