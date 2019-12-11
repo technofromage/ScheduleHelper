@@ -69,8 +69,8 @@
             {
                 $day = $row[3 + $i];
 				$username = $row['username'];
-				$modR=ord($username)+20;
-				$modB=((17 * strlen($username)) % 110) + 20;
+				$modR=12*ord($username) % 150;
+				$modB=((31 * strlen($username)) % 110) + 20;
                 $arr=explode(",",$day);
                 
                 if($arr[intval($hour)] != '~')
@@ -131,9 +131,9 @@
                 $arr=explode(",",$day);
 				
 				$username = $row['username'];
-				$colorR=205-(ord($username) + 20);//this should be similar to modR in drawRow()
+				$colorR=205-(12*ord($username) % 150);//this should be similar to modR in drawRow()
 				if ($colorR<0) $colorR=0;
-				$colorB=193-(((17 * strlen($username)) % 110) + 20);//this should be similar to modB in drawRow()
+				$colorB=193-(((31 * strlen($username)) % 110) + 20);//this should be similar to modB in drawRow()
 				if ($colorB<0) $colorR=0;
 				
                 // If Busy Then Draw Busy Box If It AMkes It To End Without Drawing Busy Box Then Draw Empty Box
