@@ -57,36 +57,37 @@
         for ($i=0; $i < 7 ; $i++) 
         { 
             $bBusy = false;
-
+			$colorR=205;
+			$colorG=205;
+			$colorB=192;
+			$modR=0;//not modding any green to prevent color black
+			$modB=0;
             // Loop Though All Group Members And Check If This Hour Is Busy On This Day Of The Week
             $query = "SELECT * FROM `$SQL_database`";
             $result = mysqli_query($conn, $query);
             while($row = mysqli_fetch_array($result))
             {
                 $day = $row[3 + $i];
+				$username = $row['username'];
+				$modR=12*ord($username) % 150;
+				$modB=((31 * strlen($username)) % 110) + 20;
                 $arr=explode(",",$day);
-
-
-
-                // If Busy Then Draw Busy Box If It AMkes It To End Without Drawing Busy Box Then Draw Empty Box
+                
                 if($arr[intval($hour)] != '~')
                 {
-                    $x = $i;
-                    $y = intval($hour);
-                    echo("<th class=\"busyGroup\">--</th>");
-                    $bBusy = true;
-                    break;
+                    $colorR-=$modR;//this way overlaping schedules will appear different colors
+					$colorB-=$modB;
+					if ($colorR<0) $colorR=0;
+					if ($colorB<0) $colorB=0;
                 }
             }
+			// draw box - If Busy then color will be default
+			$x = $i;
+			$y = intval($hour);
+            echo("<th class=\"openBox\" style=\"background-color: rgb({$colorR},  {$colorB},  {$colorG})\"></th>");
 
-            if(!$bBusy)
-            {
-                $x = $i;
-                $y = intval($hour);
-                echo("<th class=\"openBox\"></th>");
-            }
 
-            // If Busy Mark REd If Free MArk GReen
+            // If Busy Mark Red If Free Mark Grey
         }
 
         $conn->close();
@@ -128,13 +129,19 @@
             {
                 $day = $row[3 + $i];
                 $arr=explode(",",$day);
-
+				
+				$username = $row['username'];
+				$colorR=205-(12*ord($username) % 150);//this should be similar to modR in drawRow()
+				if ($colorR<0) $colorR=0;
+				$colorB=193-(((31 * strlen($username)) % 110) + 20);//this should be similar to modB in drawRow()
+				if ($colorB<0) $colorR=0;
+				
                 // If Busy Then Draw Busy Box If It AMkes It To End Without Drawing Busy Box Then Draw Empty Box
                 if($arr[intval($hour)] != '~')
                 {
                     $x = $i;
                     $y = intval($hour);
-                    echo("<th onmouseover=\"updateVisualSelection($x, $y)\" onmouseup=\"tileMouseUp($x, $y)\" onmousedown=\"tileMouseDown($x, $y)\" class=\"busyPersonal\">--</th>");
+                    echo("<th onmouseover=\"updateVisualSelection($x, $y)\" onmouseup=\"tileMouseUp($x, $y)\" onmousedown=\"tileMouseDown($x, $y)\" class=\"openbox\" style=\"background-color: rgb({$colorR}, 205, {$colorB}\">--</th>");
                     $bBusy = true;
                     break;
                 }
