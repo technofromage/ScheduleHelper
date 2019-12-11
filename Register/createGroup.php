@@ -9,12 +9,12 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    
+
     // Create connection
     $conn = mysqli_connect($servername, $username, $password);
-    
+
     // Check connection
-    if (!$conn) 
+    if (!$conn)
     {
         echo "FAILED TO CONNECT TO DATABASE";
         return;
@@ -39,14 +39,14 @@
     // Close Connection An Open Conene tion To This Grous Datatbase
     $conn->close();
     $conn = mysqli_connect($servername, $username, $password, $GROUP_NAME);
-    if (!$conn) 
+    if (!$conn)
     {
         echo "FAILED TO CONNECT TO GROUPS DATABASE";
         return;
     }
 
     // Add First User To Group
-    $query = "INSERT INTO `$GROUP_NAME` (`id`, `username`, `password`, `sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`) VALUES ('', '$ADMIN_USERNAME', '$ADMIN_PASSWORD', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~')";
+    $query = "INSERT INTO `$GROUP_NAME` (`id`, `username`, `password`, `sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`) VALUES (NULL, '$ADMIN_USERNAME', '$ADMIN_PASSWORD', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~', '~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~')";
     if($conn->query($query) === FALSE)
     {
         echo("FAILED TO ADD ADMIN USER: $query"); return;
