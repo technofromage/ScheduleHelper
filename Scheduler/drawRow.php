@@ -84,7 +84,7 @@
 			// draw box - If Busy then color will be default
 			$x = $i;
 			$y = intval($hour);
-            echo("<th class=\"openBox\" style=\"background-color: rgb({$ColorR},  {$ColorB},  {$ColorG})\"></th>");
+            echo("<th class=\"openBox\" style=\"background-color: rgb({$colorR},  {$colorB},  {$colorG})\"></th>");
 
 
             // If Busy Mark Red If Free Mark Grey
